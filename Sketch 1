@@ -1,0 +1,15 @@
+
+void setup(){
+  background (0);
+  size (500,500);
+  noStroke();
+
+}
+
+void draw() {
+      int i=30;
+      while (i<480){
+  ellipse(10+i,20+i,39,39);
+  i=i+30;
+      }
+}
