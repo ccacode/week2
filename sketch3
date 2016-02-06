@@ -1,0 +1,13 @@
+
+
+size(500,500);
+int y=25;
+int x=25;
+while (y<490){
+  noStroke();
+  
+  fill(random(250),random(200),random(170));
+  ellipse(x,y,25,25);
+  x = x + 28;
+   y= y + 28;
+}
