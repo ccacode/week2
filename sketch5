@@ -1,0 +1,34 @@
+
+void draw() {
+      int i=0;
+      while (i<480){
+        fill(random(250),random(220),random(240));
+  ellipse(20+i,20,15,15);
+  ellipse(20+i,40,15,15);
+  ellipse(20+i,60,15,15);
+  ellipse(20+i,80,15,15);
+  ellipse(20+i,100,15,15);
+  ellipse(20+i,120,15,15);
+  ellipse(20+i,140,15,15);
+  ellipse(20+i,160,15,15);
+  ellipse(20+i,180,15,15);
+  ellipse(20+i,200,15,15);
+  ellipse(20+i,220,15,15);
+  ellipse(20+i,240,15,15);
+  ellipse(20+i,260,15,15);
+  ellipse(20+i,280,15,15);
+  ellipse(20+i,300,15,15);
+  ellipse(20+i,320,15,15);
+  ellipse(20+i,340,15,15);
+  ellipse(20+i,360,15,15);
+  ellipse(20+i,380,15,15);
+  ellipse(20+i,400,15,15);
+  ellipse(20+i,420,15,15);
+  ellipse(20+i,440,15,15);
+  ellipse(20+i,460,15,15);
+  ellipse(20+i,480,15,15);
+ 
+  i=i+20;
+  
+      }
+}
